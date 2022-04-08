@@ -1,0 +1,14 @@
+.pictures {
+    display: flex;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+} 
+ol{
+    text-align: center;
+}
+
+.bodyform {
+    background-image: url(bakery.jpg);
+}
