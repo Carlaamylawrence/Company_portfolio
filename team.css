@@ -1,0 +1,31 @@
+body {
+  font-style: italic;
+  color: black;
+  background-color: white;
+}
+h1 {
+  text-align: center;
+}
+section {
+  width: 80%;
+  margin: auto;
+}
+
+.tile {
+  width: 250px;
+  text-align: center;
+  float: left;
+  margin-left: 100px;
+}
+
+img {
+  border-radius: 50%;
+  width: 170px;
+  margin: auto;
+  height: 170px;
+}
+
+.social-icons {
+  font-size: 15pt;
+  color: black;
+}
