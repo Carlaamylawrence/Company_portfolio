@@ -1,0 +1,12 @@
+body 
+{
+    font-style: italic;
+    text-align: center;
+    
+}
+
+img {
+    border-radius: 50%;
+    height: 170;
+    width: 170;
+}
