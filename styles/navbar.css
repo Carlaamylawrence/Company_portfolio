@@ -1,0 +1,26 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* NAVIGATION STYLES */
+
+ul.nav-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav#navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+a.link {
+  padding: 10px;
+  color: azure;
+  text-decoration-line: none;
+}

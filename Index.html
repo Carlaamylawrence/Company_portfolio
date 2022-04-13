@@ -6,21 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Company Portfolio</title>
     <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/navbar.css">
   </head>
   <body
     style="
-      background-image: url(rolling_pin.jpg);
+      background-image: url(./images/rolling_pin.jpg);
       background-size: cover;
       color: white;"
   >
-    <ul class="topnav">
-      <a class="active" href="./Index.html" target="_blank">HOME</a>
-      <a href="./services.html" target="_blank">SERVICES</a>
-      <a href="./portfolio.html" target="_blank">PRODUCTS</a>
-      <a href="./about.html" target="_blank">ABOUT</a>
-      <a href="./team.html" target="_blank">TEAM</a>
-     <a href="./Contact.html" target="_blank">CONTACT</a>
-    </ul>
+    <nav id="navbar">
+      <ul class="nav-links">
+        <li class="nav-link"><a href="./Index.html" class="link">Home</a></li>
+        <li class="nav-link"><a href="./about.html" class="link">About</a></li>
+        <li class="nav-link"><a href="./portfolio.html" class="link">Portfolio</a></li>
+        <li class="nav-link">
+          <a href="./services.html" class="link">Services</a>
+        </li>
+        <li class="nav-link"><a href="./Contact.html" class="link">Contact</a></li>
+      </ul>
+    </nav>
     <section>
       <div class="clear"></div>
       <h1>Sweet Heaven Confectionery</h1>
